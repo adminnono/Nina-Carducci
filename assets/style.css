@@ -43,6 +43,19 @@ body {
   padding-block: 100px;
   position: relative;
 }
+
+.visually-hidden {
+  color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: rgb(15, 14, 14);
+}
+
+.carousel-control-prev-icon {
+  background-color: rgb(15, 14, 14);
+}
+
 .picture.left::before {
   content: " ";
   background-color: #e5975f;
